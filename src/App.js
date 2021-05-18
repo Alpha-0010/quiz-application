@@ -1,14 +1,13 @@
-import React from 'react';
-import {BrowserRouter,Switch,Route} from 'react-router-dom';
+import React from "react";
+import {BrowserRouter,Switch,Route} from "react-router-dom";
+import Routes from './Route';
 function App() {
   return (
-    <div className="App">
       <BrowserRouter>
         <Switch>
-          
+          <Routes></Routes>
         </Switch>
       </BrowserRouter>
-    </div>
   );
 }
 
