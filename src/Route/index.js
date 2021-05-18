@@ -1,17 +1,16 @@
 import React from "react";
 import {BrowserRouter,Route,Switch} from "react-router-dom";
-import HomePage from "./HomePage";
+import Step1 from "./Step1";
 
 const Routes = () =>{
     return(
         <BrowserRouter>
-        
         <Switch>
             <Route exact path="/">
-                <HomePage />
+                <Step1 />
             </Route>
-        </Switch>
 
+        </Switch>
         </BrowserRouter>
     );
 };
