@@ -1,4 +1,4 @@
-# Deploment URL:
+# URL:
 https://quiz-dd262.web.app/
 
 
